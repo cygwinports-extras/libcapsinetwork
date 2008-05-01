@@ -1,0 +1,6 @@
+category: Libs
+requires: cygwin
+external-source: libcapsinetwork
+sdesc: "C++ network server daemon library (runtime)"
+ldesc: "libCapsiNetwork is a network library for C++ server daemons 
+aimed at easy development of server daemons."

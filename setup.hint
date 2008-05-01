@@ -1,0 +1,5 @@
+category: Libs
+requires: libcapsinetwork0 libcapsinetwork-devel
+sdesc: "C++ network server daemon library (docs)"
+ldesc: "libCapsiNetwork is a network library for C++ server daemons 
+aimed at easy development of server daemons."

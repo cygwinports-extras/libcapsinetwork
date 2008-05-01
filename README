@@ -1,0 +1,76 @@
+libcapsinetwork
+------------------------------------------
+libCapsiNetwork is a network library for C++ server daemons aimed at 
+easy development of server daemons.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+
+Build requirements:
+  autoconf2.5-2.61-1
+  automake1.5-1.5-2
+  binutils-20060817-1
+  cygport-0.3.9-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.robertjohnkaper.com/software/atlantik/
+
+Canonical download:
+  http://www.robertjohnkaper.com/downloads/atlantik/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libcapsinetwork-0.3.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libcapsinetwork-0.3.0-X.cygport all
+
+This will create:
+  /usr/src/libcapsinetwork-0.3.0-X-src.tar.bz2
+  /usr/src/libcapsinetwork-0.3.0-X.tar.bz2
+  /usr/src/libcapsinetwork-devel-0.3.0-X.tar.bz2
+  /usr/src/libcapsinetwork0-0.3.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libcapsinetwork)
+  /usr/share/doc/libcapsinetwork-0.3.0/AUTHORS
+  /usr/share/doc/libcapsinetwork-0.3.0/COPYING
+  /usr/share/doc/libcapsinetwork-0.3.0/COPYING.LIB
+  /usr/share/doc/libcapsinetwork-0.3.0/ChangeLog
+  /usr/share/doc/libcapsinetwork-0.3.0/INSTALL
+  /usr/share/doc/libcapsinetwork-0.3.0/NEWS
+  /usr/share/doc/libcapsinetwork-0.3.0/README
+  /usr/share/doc/libcapsinetwork-0.3.0/TODO
+
+(libcapsinetwork0)
+  /usr/bin/cygcapsinetwork-0.dll
+
+(libcapsinetwork-devel)
+  /usr/include/libcapsinetwork/listener.h
+  /usr/include/libcapsinetwork/listenport.h
+  /usr/include/libcapsinetwork/socket.h
+  /usr/lib/libcapsinetwork.a
+  /usr/lib/libcapsinetwork.dll.a
+  /usr/lib/libcapsinetwork.la
+
+------------------
+
+Port Notes:
+
+----- version 0.3.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
