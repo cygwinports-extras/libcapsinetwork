@@ -4,18 +4,20 @@ libCapsiNetwork is a network library for C++ server daemons aimed at
 easy development of server daemons.
 
 Runtime requirements:
-  cygwin-1.5.25-11
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libstdc++6-4.3.2-2
 
 Build requirements:
-  autoconf2.5-2.61-1
-  automake1.5-1.5-2
-  binutils-20060817-1
-  cygport-0.3.9-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  libtool-2.2.2-2
-  make-3.81-1
+  autoconf2.5-2.63-10
+  automake1.5-1.5-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libtool-2.2.7a-12
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical website:
@@ -35,7 +37,6 @@ Build instructions:
 
 This will create:
   /usr/src/libcapsinetwork-0.3.0-X-src.tar.bz2
-  /usr/src/libcapsinetwork-0.3.0-X.tar.bz2
   /usr/src/libcapsinetwork-devel-0.3.0-X.tar.bz2
   /usr/src/libcapsinetwork0-0.3.0-X.tar.bz2
 
@@ -43,18 +44,15 @@ This will create:
 
 Files included in the binary packages:
 
-(libcapsinetwork)
-  /usr/share/doc/libcapsinetwork-0.3.0/AUTHORS
-  /usr/share/doc/libcapsinetwork-0.3.0/COPYING
-  /usr/share/doc/libcapsinetwork-0.3.0/COPYING.LIB
-  /usr/share/doc/libcapsinetwork-0.3.0/ChangeLog
-  /usr/share/doc/libcapsinetwork-0.3.0/INSTALL
-  /usr/share/doc/libcapsinetwork-0.3.0/NEWS
-  /usr/share/doc/libcapsinetwork-0.3.0/README
-  /usr/share/doc/libcapsinetwork-0.3.0/TODO
-
 (libcapsinetwork0)
   /usr/bin/cygcapsinetwork-0.dll
+  /usr/share/doc/libcapsinetwork/AUTHORS
+  /usr/share/doc/libcapsinetwork/COPYING
+  /usr/share/doc/libcapsinetwork/COPYING.LIB
+  /usr/share/doc/libcapsinetwork/ChangeLog
+  /usr/share/doc/libcapsinetwork/NEWS
+  /usr/share/doc/libcapsinetwork/README
+  /usr/share/doc/libcapsinetwork/TODO
 
 (libcapsinetwork-devel)
   /usr/include/libcapsinetwork/listener.h
@@ -68,8 +66,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 0.3.0-1 -----
-Initial release for Cygwin.
+----- version 0.3.0-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

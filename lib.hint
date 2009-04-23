@@ -1,5 +1,5 @@
 category: Libs
-requires: cygwin
+requires: cygwin libgcc1 libstdc++6
 external-source: libcapsinetwork
 sdesc: "C++ network server daemon library (runtime)"
 ldesc: "libCapsiNetwork is a network library for C++ server daemons 
