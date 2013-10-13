@@ -1,4 +1,0 @@
-category: Libs
-sdesc: "C++ network server daemon library (sources)"
-ldesc: "libCapsiNetwork is a network library for C++ server daemons 
-aimed at easy development of server daemons."

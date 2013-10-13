@@ -1,0 +1,20 @@
+NAME="libcapsinetwork"
+VERSION=0.3.0
+RELEASE=10
+CATEGORY="Libs"
+SUMMARY="C++ network server daemon library"
+DESCRIPTION="libCapsiNetwork is a network library for C++ server daemons
+aimed at easy development of server daemons."
+HOMEPAGE="http://unixcode.org/libcapsinetwork" # defunct
+SRC_URI="mirror://gentoo/${NAME}-${VERSION}.tar.bz2"
+PATCH_URI="
+	mirror://portage/net-libs/${NAME}/files/${NAME}-0.3.0-gcc43.patch
+	mirror://portage/net-libs/${NAME}/files/${NAME}-0.3.0-parallel.patch
+	mirror://portage/net-libs/${NAME}/files/${NAME}-0.3.0-64bit.patch
+"
+
+PKG_NAMES="${NAME}0 ${NAME}-devel"
+libcapsinetwork0_CONTENTS="usr/bin/*-0.dll usr/share/doc/"
+libcapsinetwork_devel_CONTENTS="usr/include/ usr/lib/"
+
+DIFF_EXCLUDES="stamp-h.in"
